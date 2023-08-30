@@ -4,6 +4,7 @@ Mishell is an interactive Unix-style operating system shell developed as part of
 
 ## Table of Contents
 - [Dependencies](#dependencies)
+- [Compile and Run](#compile-and-run)
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [License](#license)
@@ -12,9 +13,19 @@ Mishell is an interactive Unix-style operating system shell developed as part of
 - gcc 12.2.0
 - dwarfs
 - pahole
-- python310
-- linuxHeaders
-- graphvis
+- Linux 6.2
+- Linux-Headers: 6.2
+- Python: 3.10
+- Python.Pyperclip
+- Graphviz: 7.1.0
+
+## Compile and Run
+
+For Compiling the code:
+```gcc shell-skeleton.c -o mishell -lgvc -lcgraph```
+
+To Run the code:
+```./mishell```
 
 ## Features
 Mishell offers the following features:
